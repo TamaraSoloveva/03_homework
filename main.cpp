@@ -2,6 +2,7 @@
 #include <string.h>
 
 #include "rand_value.h"
+#include "high_scores.h"
 using namespace std;
 
 
@@ -26,6 +27,8 @@ int main() {
     }
 
     cout << "you win! attempts = " << count << endl;
+    write_new_high_scores(userName, count);
+
 
     return 0;
 }
