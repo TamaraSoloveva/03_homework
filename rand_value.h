@@ -5,4 +5,4 @@
 #include <ctime>
 
 
-int get_rand_value();
+int get_rand_value( const int maxVal );

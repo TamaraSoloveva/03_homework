@@ -5,7 +5,10 @@ project(03_homework CXX)
 add_executable(03_homework
     main.cpp
     rand_value.cpp
+    high_scores.cpp
     rand_value.h
+    high_scores.h
+
 
 )
 
