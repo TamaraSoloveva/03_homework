@@ -8,4 +8,6 @@
 using namespace std;
 
 
-int write_new_high_scores( string, int);
+int write_new_high_scores( string, string, int);
+int show_table( string high_scores_filename, int mode);
+
